@@ -45,7 +45,7 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
     const obsElement = card.querySelector('.obs');
     const obs = obsElement ? obsElement.value || 'Nenhuma' : 'Nenhuma';
 
-    const numero = '5511982299394';
+    const numero = '5511982299304';
     const mensagem = `Olá! Gostaria de fazer um orçamento:\n\n⚡ *${nome}* (Código: ${codigo})\n📝 Observações: ${obs}`;
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
 
